@@ -39,6 +39,8 @@ Name of the API to check prime number: bool is_prime(u_int_32_t n)
 
 3. App_Main.c
 This source file is implemented an application logic “FizzBuzz”. 
+
+
 Example output of Fizzbuzz:
 $ ./FUZZ.exe
 Enter a number: 20
