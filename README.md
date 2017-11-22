@@ -17,15 +17,15 @@ Procedure to generate a ELF or EXE:
 4. Output of the EXE is “FUZZ”.
 
 Here is a sample build output:
-$ make clean
-rm -f ./src/*.o
-rm -f FUZZ
+    $ make clean
+    rm -f ./src/*.o
+    rm -f FUZZ
 
-$ make all
-gcc -c -o src/App_Main.o src/App_Main.c -I ./include
-gcc -c -o src/Fibonacci.o src/Fibonacci.c -I ./include
-gcc -c -o src/Prime.o src/Prime.c -I ./include
-gcc -o FUZZ src/App_Main.o src/Fibonacci.o src/Prime.o -I ./include
+    $ make all
+    gcc -c -o src/App_Main.o src/App_Main.c -I ./include
+    gcc -c -o src/Fibonacci.o src/Fibonacci.c -I ./include
+    gcc -c -o src/Prime.o src/Prime.c -I ./include
+    gcc -o FUZZ src/App_Main.o src/Fibonacci.o src/Prime.o -I ./include
 
 “src” directory information:
 
