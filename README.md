@@ -8,7 +8,7 @@ Program to generate the first n Fibonacci numbers F(n), printing
     the value F(n) otherwise.
 
 Programming language used ‘C’ and Compiler used is “gcc”.
-This repo has two directories “include” and “src”. “include” directory has all header files and “src” directory has all ‘C’ source files. It also has GNU Makefile to build ELF.
+This repo has two directories “include” and “src”. “include” directory has all header files and “src” directory has all ‘C’ source files. It also has GNU Makefile to build ELF. Apart from "stdio.h", not used any GNU based Libraries.
 
 Procedure to generate a ELF or EXE:
 1. Goto head of the repo.
@@ -17,6 +17,7 @@ Procedure to generate a ELF or EXE:
 4. Output of the EXE is “FUZZ”.
 
 Here is a sample build output:
+
     $ make clean
     rm -f ./src/*.o
     rm -f FUZZ
