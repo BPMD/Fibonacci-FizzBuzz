@@ -1,5 +1,5 @@
 CC=gcc
-EXE=FUZZ
+EXE=Fibonacci-FizzBuzz
 INCLUDE= ./include
 CFLAGS=-I $(INCLUDE)
 
